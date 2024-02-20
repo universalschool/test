@@ -10,7 +10,7 @@ $database = "belajar1
 $conn = mysqli_connect($host, $user, $password, $database);
 if ($conn)
 echo "terhubung";
-$sql= "insert into belajar11(email,password) value ('saldi.takka@gmail.com', 'sandikuat')"
+$sql= "insert into belajar1(email,password) value ('none', 'none1')"
 $query= mysqli_query($conn, $sql);
 if($query)
 echo "dimasukan"
